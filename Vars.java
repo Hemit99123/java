@@ -12,6 +12,7 @@ public class Vars {
     int numOfStocks = 100; // integers 
     char strongPwd = '1@fhfh2'; // Cannot use "" + for special characters like @#$
     double priceInDecimal = 3.99; // big or small numbers + decimals
+    boolean isBoy = true; // true/false values only 
     
     /*
     REFERENCE DATA TYPES:
