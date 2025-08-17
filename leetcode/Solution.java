@@ -1,17 +1,21 @@
 import java.lang.Math;
 
 class Solution {
+
+    public int alicePts;
+    public int markPts;
+
     public boolean canAliceWin(int[] nums) {
         for (int num: nums) {
             int absNum = Math.abs(num);
             
-            if (Math.abs(num)) {
-                System.out.println(num + " is double-digit");
+            if (absNum >= 1 && absNum <= 9) {
+                alicePts += num
             }
             
-            else if ((num >= 1 && num <= 9) || (num <= -1 && num >= -99)) {
-
-            }
+            else if (absNum >= 10 && absNum <= 99) {
+   markPts += num;
+}
         }
     }
 }
