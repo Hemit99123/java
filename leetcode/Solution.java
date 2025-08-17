@@ -15,9 +15,9 @@ class Solution {
             
             else if (absNum >= 10 && absNum <= 99) {
                 bobPts += num;
-            }
-
-            System.out.println(alicePts > bobPts); 
+            } 
         }
+
+        System.out.println(alicePts < bobPts);
     }
 }
