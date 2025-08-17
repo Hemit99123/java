@@ -3,7 +3,7 @@ import java.lang.Math;
 class Solution {
 
     public int alicePts;
-    public int markPts;
+    public int bobPts;
 
     public boolean canAliceWin(int[] nums) {
         for (int num: nums) {
@@ -14,8 +14,10 @@ class Solution {
             }
             
             else if (absNum >= 10 && absNum <= 99) {
-   markPts += num;
+   bobPts += num;
 }
+
+System.out.println(alicePts > bobPts); 
         }
     }
 }
